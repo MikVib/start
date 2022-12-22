@@ -6,6 +6,7 @@ const bot = {
     chatID:'-895241811'
 }
 
+
 form.addEventListener('submit',(e)=>{
 e.preventDefault()  
 console.log('wor')
