@@ -1,0 +1,39 @@
+@media screen and (max-width:576px) {
+    .mobile-btn {
+        display: flex;
+        align-items: center;
+    }
+
+    .nav {
+        /* display: none; */
+        display: flex;
+        right: -100%;
+        /* left: -100%; */
+        /* top: -200%; */
+        /* left: 0; */
+        /* bottom: -100%; */
+        flex-direction: column;
+        position: fixed;
+        height: 100%;
+        width: 100%;
+
+        align-items: center;
+        justify-content: center;
+        background-color: aqua;
+        top: 0;
+        row-gap: 30px;
+
+        transition: 1s;
+    }
+
+
+
+    .nav li a {
+        font-size: 20px;
+    }
+
+    .show-nav {
+        right: 0;
+
+    }
+}

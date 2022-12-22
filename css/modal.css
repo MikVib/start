@@ -1,0 +1,87 @@
+.backdrop {
+    position: fixed;
+    width: 100%;
+    height: 100%;
+    top: 0;
+    bottom: 0;
+    backdrop-filter: blur(10px);
+    z-index: -1;
+    opacity: 0;
+    transition: 0.5s;
+
+}
+
+/* for toggle in JS */
+
+.backdropActive {
+    opacity: 1;
+    z-index: 3;
+}
+
+/* for toggle in JS */
+
+.modal {
+    position: fixed;
+    left: 0;
+    right: 0;
+    top: 0;
+    bottom: 0;
+    margin: auto;
+    background-color: #fff;
+    width: 50%;
+    height: 70%;
+    scale: 0;
+    transition: 0.5s;
+}
+
+.modalActive {
+    scale: 1;
+}
+
+
+.modalHeader {
+    background-color: red;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 10%;
+    padding: 0 10px;
+}
+
+
+/* for toggle in JS */
+
+.modalContent {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    row-gap: 30px;
+    width: 50%;
+    height: 90%;
+    margin: 0 auto;
+}
+
+.hideModalContent {
+    display: none;
+}
+
+.modalContent input, .modalContent button {
+    width: 100%;
+    padding: 10px 0;
+}
+
+.modalContent input {
+    padding: 10px 0 10px 10px;
+}
+
+
+.thankYou {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 80%;
+}
+
+/* for toggle in JS */

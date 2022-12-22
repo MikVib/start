@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Landing Page</title>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@8/swiper-bundle.min.css" />
+    <link rel="stylesheet" href="./css/style.css">
+    <link rel="stylesheet" href="./css/burger.css">
+    <link rel="stylesheet" href="./css/modal.css">
+    <link rel="stylesheet" href="./css/media.css">
+</head>
+
+<body>
+
+    <header>
+        <div class="container">
+            <div class="header__nav">
+                <img src="https://i.pinimg.com/originals/2e/e7/0f/2ee70fdf94cc1e52b17fa738f1e4fd62.png" alt="">
+
+                <ul class="nav">
+                    <li class="nav__item"><a href="#slider">Slider</a></li>
+                    <li class="nav__item"><a href="#">Apply</a></li>
+                    <li class="nav__item"><a href="#accordion">Accordion</a></li>
+                    <li class="nav__item"><a href="#cover">Categories</a></li>
+                    <li class="nav__item"><a href="#">Contacts</a></li>
+                </ul>
+
+                <div class="mobile-btn">
+                    <span></span>
+                </div>
+
+            </div>
+        </div>
+    </header>
+
+
+    <section id="cover">
+        <div class="container cover__container">
+            <div class="cover__wrap">
+                <h1>Our food is the best</h1>
+                <p>Lorem ipsum dolor sit amet consectetur <br> adipisicing elit. Dolor, iste?</p>
+                <button class="cover__button">APPLY</button>
+
+            </div>
+        </div>
+    </section>
+
+
+    <!-- фон модалки -->
+    <div class="backdrop">
+        <!-- фон модалки -->
+        <div class="modal">
+            <div class="modalHeader">
+                <h2>title</h2>
+                <div class="modalCloseButton">X</div>
+            </div>
+
+            <form class="modalContent">
+                <input id="inputMessage" type="text">
+                <input id="inputNumber" type="text">
+                <button class="modalBtn">APPLY</button>
+            </form>
+
+            <div class="thankYou">
+
+            </div>
+
+        </div>
+    </div>
+
+
+    <section id="best">
+        <div class="container">
+            <div class="swiper mySwiper">
+                <div class="swiper-wrapper">
+
+                </div>
+                <div class="swiper-button-next"></div>
+                <div class="swiper-button-prev"></div>
+                <div class="swiper-pagination"></div>
+            </div>
+        </div>
+    </section>
+
+
+    <script src="https://cdn.jsdelivr.net/npm/swiper@8/swiper-bundle.min.js"></script>
+    <script src="./js/script.js"></script>
+    <script src="./js/modal.js"></script>
+    <!-- <script src="./js/telegram.js"></script> -->
+    <script src="./js/burger.js"></script>
+    <script src="./js/swiper.js"></script>
+</body>
+
+</html>
