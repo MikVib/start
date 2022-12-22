@@ -2,8 +2,8 @@ const form = document.querySelector('.modalContent')
 
 
 const bot = {
-    TOKEN:'5376286571:AAHPuSMXYrPTWsdwF9bDlrxs7LwdAT6tFSU',
-    chatID:'-713454776'
+    TOKEN:'5809890640:AAGUX0mfk9eACxQFZqfvqtCkdB9pjTx4x2s',
+    chatID:'-895241811'
 }
 
 form.addEventListener('submit',(e)=>{
